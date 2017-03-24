@@ -83,14 +83,14 @@ font-family: Impact;
   font-family: Verdana,sans-serif;
 }
 .texto:hover {
-    color: #fff;
+    color: #ffb400;
 }
 texto {
     transition: color 0.8s linear 0.2s;
 }
 .yo{
-           color: #fff;
-     -webkit-animation: bounce .3s ease infinite alternate;
+           color: #ffb400;
+    font-size:60px;
 }
 
 
@@ -98,34 +98,40 @@ texto {
      
 /*-----------foooter-------foter----------------foter----------*/
 .negro{
-            background-color: #333;
+    background-image: url(../img/bio.jpg);
+        background-size: cover;
+         background-position: center;
+         color: #fff;
+         height: 650px;
+         
+         width: 100%;
 }
+
 .lap{
-    background-image: url(../img/flo.jpg);
+    background-image: url(../img/LAP6.jpg);
         background-size: cover;
          background-position: center;
          color: #fff;
          height: 900px;
-         padding: 160px 20px;
+        
          width: 100%;
 }
 .fondo{
-    background-image: url(../img/flo.jpg);
+    background-image: url(../img/lap7.jpg);
         background-size: cover;
          background-position: center;
          color: #fff;
-         height: 900px;
-         padding: 160px 20px;
+         height: 800px;
          width: 100%;
 }
 
 .aspero{
-        background-image: url(../img/flo.jpg);
+        background-image: url(../img/contactame.jpeg);
         background-size: cover;
          background-position: center;
          color: #fff;
-         height: 900px;
-         padding: 160px 20px;
+         height: 800px;
+         
          width: 100%;
 }
 /*-----------boton-----boton----boton-------boton----------------*/
@@ -148,6 +154,22 @@ div.gallery {
 
 div.gallery img {
     width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+div.gar {
+    margin: 50px;
+    float: left;
+    width: 180px;
+}
+
+div.gar img {
+    width: 200%;
     height: auto;
 }
 
@@ -182,6 +204,22 @@ div.desc {
 .icon{
               width: 50%;
               margin-top: 15%;
-}}
+}
+     div.gallery {
+    margin: 30px;
+    float: left;
+    width: 180px;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+}
 
 
