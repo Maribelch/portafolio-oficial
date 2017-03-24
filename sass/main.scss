@@ -1,23 +1,28 @@
+/*-------------------hr-----------------hr-----------*/ 
 
-.naranja{
+ .naranja{
         width: 10%;
         border: 3px solid #FFB400;
 }
 .linea2 {
         border: 2px solid #FFB400;
-        width: 20%;
+        width: 80%;
         margin-left: 0%;
 }
 .meni{
         padding-bottom: 40px;
 }
- /*---------------imagenes-----*/
+ /*---------------imagenes--*/
 .logo{
         width: 100%;
-    }
+    
+}
+
 .grupo{
         width: 100%;
         left: 500px;
+         border: 5px solid #fff;
+          border-style: dashed; 
       }
 .promo {
          background-image: url(../img/teclado.jpg);
@@ -42,30 +47,94 @@
    
 }
 /*------------------texto----textos-----------------------*/
+
 .orange a{
           color: #fff;
           font-size: 18px;
 }
+
 .web {
-          font-size: 90px;
-          margin-top: 15%;
+text-shadow: 0 1px 0 #ccc, 
+0 2px 0 #c9c9c9,
+0 3px 0 #bbb,
+0 4px 0 #b9b9b9,
+0 5px 0 #aaa,
+0 6px 1px rgba(0,0,0,.1),
+0 0 5px rgba(0,0,0,.1),
+0 1px 3px rgba(0,0,0,.3),
+0 3px 5px rgba(0,0,0,.2),
+0 5px 10px rgba(0,0,0,.25),
+0 10px 10px rgba(0,0,0,.2),
+0 20px 20px rgba(0,0,0,.15);
+color: #fff;
+    margin-top: 10%;
+font-size: 150px;
+font-family: Impact;
 }
 .presentacion{
            font-size: 25px;
 }
+
 .texto{
-           color: #000;
-           font-size:25px;
+  text-decoration: none;
+  color: blue;
+  color: #000;
+    font-size:25px;
+  font-family: Verdana,sans-serif;
+}
+.texto:hover {
+    color: #fff;
+}
+texto {
+    transition: color 0.8s linear 0.2s;
 }
 .yo{
-           color: #000;
+           color: #fff;
 }
 .hago{
            color: #fff;
 }
+
+
+
+     
 /*-----------foooter-------foter----------------foter----------*/
 .negro{
             background-color: #333;
+}
+.lap{
+    background-image: url(../img/flo.jpg);
+        background-size: cover;
+         background-position: center;
+         color: #fff;
+         height: 900px;
+         padding: 160px 20px;
+         width: 100%;
+}
+
+.borde{
+    border: 1px solid #fff;
+    width: 100%;
+    height: 500px;
+}
+.fondo{
+    background-image: url(../img/flo.jpg);
+        background-size: cover;
+         background-position: center;
+         color: #fff;
+         height: 900px;
+         padding: 160px 20px;
+         width: 100%;
+}
+
+.aspero{
+        background-image: url(../img/flo.jpg);
+        background-size: cover;
+         background-position: center;
+         color: #fff;
+         height: 900px;
+         padding: 160px 20px;
+         width: 100%;
 }
 /*-----------boton-----boton----boton-------boton----------------*/
 .butt{
@@ -76,17 +145,33 @@
             top:150px;
             background: transparent;
             -webkit-animation: bounce 2s ease infinite alternate;
-            
+}
+/*-----------tabla-de-img------------------*/
+
+div.gallery {
+    margin: 30px;
+    float: left;
+    width: 180px;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
 }
 /*------------media------para-----celular----------*/
-@media screen and (max-width:768px){
-   .web {
+ @media screen and (max-width:768px){
+.web {
             font-size: 50px;
 }
-    .logo{
+.logo{
              width: 100%;
  }
-    .butt{
+.butt{
              width: 10%;
              height:40px;
              border-radius: 40px;
@@ -94,7 +179,7 @@
              top:80px;
              background: transparent;
  }
-    .linea2 {
+.linea2 {
              border: 2px solid #FFB400;
              width: 60%;
              margin-left: 0%;
@@ -105,9 +190,6 @@
 .icon{
               width: 50%;
               margin-top: 15%;
-}
-    
-    
-}
+}}
 
 
