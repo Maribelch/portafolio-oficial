@@ -18,8 +18,7 @@
 .grupo {
   width: 100%;
   left: 500px;
-  border: 5px solid #fff;
-  border-style: dashed; }
+}
 
 .promo {
   background-image: url(../img/teclado.jpg);
@@ -75,13 +74,7 @@ texto {
   font-size: 60px; }
 
 /*-----------foooter-------foter----------------foter----------*/
-.negro {
-  background-image: url(../img/bio.jpg);
-  background-size: cover;
-  background-position: center;
-  color: #fff;
-  height: 650px;
-  width: 100%; }
+
 
 .lap {
   background-image: url(../img/LAP6.jpg);
